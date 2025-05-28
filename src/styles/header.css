@@ -1,0 +1,40 @@
+/* header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.add-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.image1 {
+  width: 10px;         /* ✅ Set width */
+  height: 10px;        /* ✅ Set height */
+  border-radius: 40%;  /* Makes it circular */
+  object-fit: cover;   /* Ensures image scales nicely */
+}

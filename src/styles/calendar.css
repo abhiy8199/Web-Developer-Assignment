@@ -1,0 +1,41 @@
+.calendar {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.calendar-grid {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.calendar-day {
+  flex: 1;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.day-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.slot {
+  background: #c5e1a5;
+  padding: 4px;
+  border-radius: 2px;
+  margin-top: 3px;
+}
+
+.appointments {
+  margin-top: 10px;
+}
+
+.appointment-card {
+  background: #e1f5fe;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}

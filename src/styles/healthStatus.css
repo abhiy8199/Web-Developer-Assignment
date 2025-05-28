@@ -1,0 +1,31 @@
+.status-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.status-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.status-card.healthy {
+  border-left: 4px solid #4caf50;
+}
+
+.status-card.danger {
+  border-left: 4px solid #f44336;
+}
+
+.progress-wrapper {
+  margin-top: 10px;
+  height: 6px;
+  background: #eee;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #2196f3;
+}

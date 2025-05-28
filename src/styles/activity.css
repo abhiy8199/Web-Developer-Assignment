@@ -1,0 +1,37 @@
+.activity-chart {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chart-header h4 {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.chart-header p {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+}
+.anatomy {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.anatomy-image {
+  width: 250px;        /* ✅ Set the width */
+  height: 20%;        /* ✅ Maintain aspect ratio */
+  max-width: 100%;     /* ✅ Responsive scaling */
+}

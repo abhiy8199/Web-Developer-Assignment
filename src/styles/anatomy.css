@@ -1,0 +1,32 @@
+.anatomy {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.anatomy-image1 {
+  width: auto;
+  height: 20px;
+}
+
+.indicator {
+  position: absolute;
+  padding: 6px 12px;
+  background-color: #5f67ff;
+  color: white;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.heart {
+  top: 20%;
+  left: 60%;
+}
+
+.leg {
+  top: 65%;
+  left: 35%;
+}

@@ -1,0 +1,21 @@
+.simple-card {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 12px;
+  color: #555;
+}
